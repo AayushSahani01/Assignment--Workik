@@ -10,15 +10,17 @@
  
  .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin:  auto;
   padding: 20px;
   font-family: Arial, sans-serif;
+   margin-top: 20px;
 }
 
 h1 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+
 }
 
 h2 {
@@ -33,25 +35,30 @@ h2 {
 
 .input {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-shadow: #4c5053;
+  padding: 16px;
 }
 
 .button {
-  background-color: #007bff;
+  background-color: #127aea;
+  font-size: 16px;
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 4rem;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 30px;
+  width: 50%;
 }
+      
 
 .button:disabled {
-  background-color: #6c757d;
-  cursor: not-allowed;
+  background-color: #0f62aa;
+  cursor: pointer;
 }
 
 .button.small {

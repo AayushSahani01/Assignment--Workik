@@ -11,8 +11,13 @@
   "description": "",
   "dependencies": {
     "@octokit/core": "^7.0.3",
+    "@octokit/graphql": "^9.0.1",
+    "@testing-library/react": "^16.3.0",
     "axios": "^1.11.0",
     "cors": "^2.8.5",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }

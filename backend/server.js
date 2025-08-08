@@ -1,4 +1,3 @@
-
 const generateTestSummaries = async (fileContents) => {
   
   return fileContents.map(file => ({
@@ -11,9 +10,10 @@ const generateTestSummaries = async (fileContents) => {
 const generateTestCode = async (file, summary) => {
   
   return `
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import ${file.name.replace('.jsx', '')} from './${file.name}';
+const React = require('react');
+const { render, screen } = require('@testing-library/react');
+const ${file.name.replace('.jsx', '')} = require('./${file.name}');
+
 
 describe('${file.name}', () => {
   it('renders without crashing', () => {

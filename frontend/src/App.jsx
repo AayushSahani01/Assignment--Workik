@@ -39,6 +39,7 @@ const App = () => {
         repoUrl,
         token,
         selectedFiles
+
       });
       setTestCaseSummaries(response.data);
     } catch (err) {
@@ -108,8 +109,8 @@ const App = () => {
           className="input"
         />
         <div className='flex justify-center items-center'>
-        <button onClick={fetchFiles} disabled={loading} className="button text-sm text-center hover:border border-blue-900  hover:bg-blue-900  ">
-          {loading ? 'Loading...' : 'Fetch Files'}
+        <button onClick={fetchFiles} disabled={loading} className="button">
+          {loading ? 'Loading...' : `Fetch Files`}
         </button>
       </div>
       </div>

@@ -2,6 +2,9 @@
 
 A web application that automatically generates test cases for React components and creates pull requests with the generated tests.
 
+<img width="1920" height="1080" alt="Screenshot 2025-08-09 182701" src="https://github.com/user-attachments/assets/3d65019f-2061-4585-a30c-862a172784e5" />
+
+
 ## Technologies Used
 
 ### Frontend
@@ -98,5 +101,6 @@ npm run dev
 3. Commit your changes
 4. Push to the branch
 5. Open a Pull Request
+
 
  

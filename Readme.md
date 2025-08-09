@@ -1,8 +1,4 @@
- <div align="center">
-   
- # Test Case Generator
-
- </div>
+# Test Case Generator
 
 A web application that automatically generates test cases for React components and creates pull requests with the generated tests.
 
